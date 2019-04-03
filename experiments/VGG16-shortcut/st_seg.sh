@@ -1,0 +1,12 @@
+python train_single_task.py \
+    --data-dir=datasets/nyu_v2 \
+    --data-list=datasets/nyu_v2/list/training_seg.txt \
+    --restore-from=models/vgg_deeplab_lfov/model.ckpt-init-slim \
+    --checkpoint-exclude=fc8,Momentum,shortcut,beta,gamma \
+    --network=vgg_16_shortcut_deeplab_st \
+    --num-classes=40 \
+    --task=seg \
+    --ignore-label=255 \
+    --learning-rate=0.001 \
+    --snapshot-dir=save/VGG16_shortcut/st_seg \
+    --max-to-keep=2

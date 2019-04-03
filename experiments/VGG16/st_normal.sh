@@ -1,0 +1,13 @@
+python train_single_task.py \
+    --data-dir=datasets/nyu_v2 \
+    --data-list=datasets/nyu_v2/list/training_normal_mask.txt \
+    --restore-from=models/vgg_deeplab_lfov/model.ckpt-init-slim \
+    --checkpoint-exclude=fc8,Momentum,beta,gamma \
+    --network=vgg_16_deeplab_st \
+    --num-classes=3 \
+    --task=normal \
+    --ignore-label=255 \
+    --learning-rate=0.001 \
+    --loss-scale=10.0 \
+    --snapshot-dir=save/VGG16/st_normal \
+    --max-to-keep=2
