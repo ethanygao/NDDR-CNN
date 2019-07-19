@@ -17,7 +17,7 @@ This repository illustrates example experiments (including ablations) with **VGG
 Extension to **other state-of-the-art CNN architectures** and/or **other tasks** is similar and can be done straightforwardly in a **“plug-and-play”** manner.
 
 Please refer to our paper for more technical details:
->Yuan Gao, Jiayi Ma, Mingbo Zhao, Wei Liu, and Alan L. Yuille. NDDR-CNN: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019. [[Arxiv]](https://arxiv.org/abs/1801.08297)
+>Yuan Gao, Jiayi Ma, Mingbo Zhao, Wei Liu, and Alan L. Yuille. NDDR-CNN: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019. [[arXiv]](https://arxiv.org/abs/1801.08297)
 
 ## Usage
 
