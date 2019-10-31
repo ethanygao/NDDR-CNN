@@ -25,7 +25,7 @@ Please refer to our paper for more technical details:
 + Python 2
 + tensorflow (tested on 1.4.0 and 1.4.1), PIL, numpy, argparse. These can be installed by:
 ```sh
-$ pip install pillow, numpy, argparse, tensorflow==1.4.0
+$ pip install pillow numpy argparse tensorflow==1.4.0
 ```
 
 ### Dataset
