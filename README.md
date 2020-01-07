@@ -12,7 +12,7 @@ NDDR-CNN is a **simple and general architecture for general-purpose CNN based mu
 
 <!-- The proposed NDDR-CNN architecture can be **extended to various state-of-the-art CNN architectures in a “plug-and-play” manner with end-to-end training**. -->
 
-This repository illustrates example experiments (including ablations) with **VGG-16** and **VGG-16-Shortcut** for **semantic segmentation** and **surface normal prediction** on NYUv2 dataset (reproduces Tables 1, 2, 3, 4, 6 of the paper). 
+This repository illustrates example experiments (including ablations) with **VGG-16** and **VGG-16-Shortcut** for **semantic segmentation** and **surface normal prediction** on NYUv2 dataset (reproduces Tables 1, 2, 3, 4, 6 of the [paper](https://arxiv.org/abs/1801.08297)). 
 
 Extension to **other state-of-the-art CNN architectures** and/or **other tasks** is similar and can be done straightforwardly in a **“plug-and-play”** manner.
 
